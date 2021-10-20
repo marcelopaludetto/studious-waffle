@@ -1,0 +1,22 @@
+.titulo__gratuito___playlist {
+    background-image: url("background-footer.jpg");
+    font-size: 30px;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.texto {
+    font-size: 22px;
+    text-align: justify;
+    padding: 5% 10%;
+}
+
+.imagem_biologia, .imagem_filosofia, .imagem_fisica, .imagem_geografia, .imagem_historia, .imagem_linguas_estrangeiras{
+    width: 100%;
+}
+
+.playlist__aulas {
+    width: 560px;
+    margin: 2em auto;
+}
