@@ -1,0 +1,139 @@
+:root {
+    --branco: #FFF;
+    --preto: #000;
+    --azul-marinho: #025159;
+    --azul-agua: #03A6A6;
+    --azul-clarinho: #DCF0F2;
+    --azul-meio-termo: #0396A6;
+	--azul-claro: #DFE3E5;
+	--vermelho-forte: #B72E2E;
+	--cinza-escuro: #4F4C4C;
+	--cinza-claro: #F7F4F4;
+	--cinza-medio: #D9D9D9;
+}
+
+/*Body Color*/
+
+body {
+	background: linear-gradient(#025159, #03A6A6,#DCF0F2);
+}
+
+/*Header*/
+
+header{
+    background-color: var(--preto);
+}
+
+nav {
+	position: absolute;
+	top: 60px;
+	right: 25px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    text-align: center;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--azul-marinho);
+	text-decoration: underline;
+}
+
+/*Cursos*/
+
+.imagem__cursos {
+    width: 100%;
+}
+
+.titulo-de-nivel1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Style Script', cursive;
+    color: var(--branco);
+    padding: 1em;
+    text-shadow: var(--azul-clarinho) 1px 1px 1px;
+    background-image: url(background-footer.jpg);
+}
+
+.cursos {
+	display: flex;
+    width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	flex-wrap: wrap;
+}
+
+.titulo-cursos {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cursos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: text-top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid white;
+	border-radius: 10px;
+	color: white;
+	background-image: url(background-footer.jpg);
+	margin-bottom: 4%;
+}
+
+.cursos-descricao {
+    font-size: 18px;
+}
+
+.cursos li:hover {
+    border-color: var(--azul-meio-termo);
+}
+
+.cursos li:hover h2 {
+    font-size: 25px ;
+}
+
+.cursos li:active {
+    border-color: var(--azul-marinho);
+}
+
+/*footer*/
+
+.rodape-principal {
+    padding: 20px;
+    text-align: center;
+    background-image: url(background-footer.jpg);
+    color: var(--branco);
+    
+}
+
+.rodape__social {
+    display: flex;
+}
+
+.rodape__midia {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    margin: 2rem 1rem;
+}
+
+.rodape__navegacao {
+    color: #FFF;
+    text-align: center;
+    line-height: 3;
+}
